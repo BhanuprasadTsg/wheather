@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheather</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<nav>
+    <ul>
+        
+    </ul>
+</nav>
+<body>
+    <div class="head">
+        <h1 class="best" >know your wheather</h1>
+        <img src="https://static01.nyt.com/images/2014/12/11/technology/personaltech/11machin-illo/11machin-illo-articleLarge-v3.jpg?quality=75&auto=webp&disable=upscale">
+    </div>
+    <form action="/" method="post">
+    <label class="awesome">ENTER CITY NAME</label><br>
+    <input type="text" placeholder="City" name="city">
+    <button type="submit" class="btn btn success" >GET</button>
+</form>
+<style>
+    body{
+    margin:0;
+    padding:0;
+    background-color:burlywood;
+}
+div h1{
+    text-align:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: inherit;
+    font-variant-position: super;
+    color:brown;
+}
+img{
+    width:200px;
+    height:200px;
+    position:relative;
+    margin-left:40%;
+}
+form{
+    text-align:center;
+    margin: 50px;
+
+}
+.btn{
+    color:black;
+    background-color: darkorange;
+    font-family: bold;
+}
+div{
+    display:inline;
+    text-align: center;
+}
+h2{
+    color:firebrick;
+}
+.temp,.des,.city{
+    font-style: obliqueS;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: green;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
